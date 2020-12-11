@@ -15,6 +15,8 @@ namespace A7_Exemplo
             Console.WriteLine("[1] Escolha A");
             Console.WriteLine("[2] Escolha B" + "\n");
 
+            // \n - Quebra a linha, coloca um espaço a mais
+
             Console.WriteLine("Digite uma opção: ");
             int option = int.Parse(Console.ReadLine());
 
